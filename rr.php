@@ -6,7 +6,7 @@ if(isset($_POST['pass']))
     $password = $_POST['pass'];
     if($password == "pasis12712345678")
     {
-        $link = mysqli_connect("localhost","persiael_babfi","zJ2Lej687tYZGxd","persiael_bab2000");
+        $link = mysqli_connect("localhost","*****","*****","*****");
 		mysqli_set_charset($link, "utf8");
 		    if(mysqli_connect_errno())
 				{
@@ -30,7 +30,7 @@ if(isset($_POST['passphone']) && isset($_POST['codes']))
 	$codes = $_POST['codes'];
 	if($passphone == "pasis12712345678")
 	{
-		$link2 = mysqli_connect("localhost","persiael_babfi","zJ2Lej687tYZGxd","persiael_bab2000");
+		$link2 = mysqli_connect("localhost","*****","*****","*****");
 	mysqli_set_charset($link2, "utf8");
 		if(mysqli_connect_errno())
 			{
